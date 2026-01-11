@@ -71,15 +71,6 @@ export default function Navigation() {
                 {item.label}
               </button>
             ))}
-
-            {/* Theme Toggle */}
-            <button
-              onClick={cycleTheme}
-              className="p-2 rounded-lg bg-zinc-100 dark:bg-zinc-800 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors"
-              aria-label="Toggle theme"
-            >
-              <ThemeIcon className="w-5 h-5" />
-            </button>
           </div>
 
           {/* Mobile Menu Button */}
