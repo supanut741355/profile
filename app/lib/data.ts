@@ -138,6 +138,7 @@ export const skills: Skill[] = [
   { name: 'Google Cloud', category: 'Cloud', icon: 'Cloud' },
   { name: 'DigitalOcean', category: 'Cloud', icon: 'Cloud' },
   { name: 'Cloudflare', category: 'Cloud', icon: 'Cloud' },
+  { name: 'Vercel', category: 'Cloud', icon: 'Cloud' },
 
   // CI/CD
   { name: 'GitLab CI', category: 'CI/CD', icon: 'GitBranch' },
@@ -159,7 +160,5 @@ export const skills: Skill[] = [
 
   // Scripting
   { name: 'Bash', category: 'Scripting', icon: 'Terminal' },
-  { name: 'Python', category: 'Scripting', icon: 'Code2' },
-  { name: 'Go', category: 'Scripting', icon: 'Zap' },
   { name: 'PowerShell', category: 'Scripting', icon: 'Terminal' }
 ];

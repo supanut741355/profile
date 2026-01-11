@@ -38,7 +38,7 @@ export const socialLinks: SocialLink[] = [
 
 export const stats = [
   { label: 'Years Experience', value: '2+' },
-  { label: 'Projects Deployed', value: '10+' },
+  { label: 'Projects Deployed', value: '30+' },
   { label: 'Certifications', value: '5' },
-  { label: 'Cloud Platforms', value: '2' }
+  { label: 'Cloud Platforms', value: '4' }
 ];

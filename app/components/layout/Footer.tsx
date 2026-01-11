@@ -61,7 +61,7 @@ export default function Footer() {
         {/* Copyright */}
         <div className="mt-8 pt-8 border-t border-zinc-200 dark:border-zinc-800 text-center">
           <p className="text-zinc-600 dark:text-zinc-400 text-sm">
-            © {new Date().getFullYear()} {siteConfig.name}. Built with Next.js and Tailwind CSS.
+            © {new Date().getFullYear()} NUTX.
           </p>
         </div>
       </div>
