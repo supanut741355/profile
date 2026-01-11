@@ -23,6 +23,7 @@ export interface Certification {
   issuer: string;
   date: string;
   credentialUrl?: string;
+  badgeImage?: string;
 }
 
 export interface Skill {

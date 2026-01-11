@@ -79,35 +79,40 @@ export const certifications: Certification[] = [
     name: 'AWS Certified Cloud Practitioner',
     issuer: 'Amazon Web Services',
     date: '2023',
-    credentialUrl: 'https://www.credly.com/earner/earned/badge/17dab03f-bbfd-4621-b5eb-6714ba4acd9d'
+    credentialUrl: 'https://www.credly.com/earner/earned/badge/17dab03f-bbfd-4621-b5eb-6714ba4acd9d',
+    badgeImage: '/badges/aws.png'
   },
   {
     id: '2',
     name: 'Cloud Digital Leader Certification',
     issuer: 'Google Cloud',
     date: '2024',
-    credentialUrl: 'https://www.credly.com/earner/earned/badge/9509b54c-43ff-4333-825a-508dbd13fc17'
+    credentialUrl: 'https://www.credly.com/earner/earned/badge/9509b54c-43ff-4333-825a-508dbd13fc17',
+    badgeImage: '/badges/google_cloud.png'
   },
   {
     id: '3',
     name: 'MongoDB Associate Database Administrator',
     issuer: 'MongoDB',
     date: '2024',
-    credentialUrl: 'https://www.credly.com/earner/earned/badge/7e70cbba-78c2-4395-9e6c-2c7e8b36282a'
+    credentialUrl: 'https://www.credly.com/earner/earned/badge/7e70cbba-78c2-4395-9e6c-2c7e8b36282a',
+    badgeImage: '/badges/mongo.png'
   },
   {
     id: '4',
     name: 'Prometheus Certified Associate',
     issuer: 'Cloud Native Computing Foundation',
     date: '2025',
-    credentialUrl: 'https://www.credly.com/earner/earned/badge/e6a5326e-0bda-4bdc-b803-8188ec0ae4c2'
+    credentialUrl: 'https://www.credly.com/earner/earned/badge/e6a5326e-0bda-4bdc-b803-8188ec0ae4c2',
+    badgeImage: '/badges/prometheus.png'
   },
   {
     id: '5',
     name: 'Linux Foundation Certified Systems Administrator',
     issuer: 'Cloud Native Computing Foundation',
     date: '2025',
-    credentialUrl: 'https://www.credly.com/earner/earned/badge/c73eb29a-7710-4df8-97af-71ce040048b1'
+    credentialUrl: 'https://www.credly.com/earner/earned/badge/c73eb29a-7710-4df8-97af-71ce040048b1',
+    badgeImage: '/badges/linux.png'
   },
 ];
 

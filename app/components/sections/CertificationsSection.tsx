@@ -1,4 +1,5 @@
-import { Award, ExternalLink } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
+import Image from 'next/image';
 import { certifications } from '@/app/lib/data';
 import SectionContainer from '@/app/components/ui/SectionContainer';
 import GradientText from '@/app/components/ui/GradientText';
@@ -22,9 +23,19 @@ export default function CertificationsSection() {
           {certifications.map((cert, index) => (
             <AnimatedSection key={cert.id} animation="fade-up" delay={index * 50}>
               <Card className="h-full flex flex-col">
-                {/* Certificate Icon */}
-                <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-blue-500 to-purple-500 flex items-center justify-center mb-4">
-                  <Award className="w-8 h-8 text-white" />
+                {/* Certificate Badge */}
+                <div className="w-16 h-16 rounded-xl bg-white dark:bg-zinc-800 flex items-center justify-center mb-4 p-2">
+                  {cert.badgeImage ? (
+                    <Image
+                      src={cert.badgeImage}
+                      alt={`${cert.name} badge`}
+                      width={64}
+                      height={64}
+                      className="w-full h-full object-contain"
+                    />
+                  ) : (
+                    <div className="w-full h-full rounded-xl bg-gradient-to-br from-blue-500 to-purple-500" />
+                  )}
                 </div>
 
                 {/* Certificate Name */}
