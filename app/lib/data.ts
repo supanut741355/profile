@@ -4,33 +4,30 @@ export const projects: Project[] = [
   {
     id: '1',
     title: 'Kubernetes Multi-Cluster Setup',
-    description: 'Designed and deployed a multi-region Kubernetes infrastructure using Terraform and ArgoCD for GitOps deployment. Implemented auto-scaling, monitoring, and disaster recovery strategies.',
-    technologies: ['Kubernetes', 'Terraform', 'ArgoCD', 'AWS', 'Helm', 'Prometheus'],
-    githubUrl: 'https://github.com/johndoe/k8s-multi-cluster',
-    image: '/images/k8s-project.jpg'
+    description: 'Designed and manage Kubernetes infrastructure using Helm and ArgoCD for GitOps deployment.',
+    technologies: ['GKE', 'ArgoCD', 'Helm'],
+    image: '/images/kubernetes-cluster.svg'
   },
   {
     id: '2',
-    title: 'CI/CD Pipeline Optimization',
-    description: 'Redesigned CI/CD pipelines using GitHub Actions and Docker, reducing deployment time by 60% through parallel job execution, intelligent caching, and optimized build strategies.',
-    technologies: ['GitHub Actions', 'Docker', 'Node.js', 'Jest', 'SonarQube'],
-    githubUrl: 'https://github.com/johndoe/cicd-optimization',
-    liveUrl: 'https://pipeline-metrics.example.com'
+    title: 'CI/CD Pipeline',
+    description: 'Build CI/CD pipelines using GitHub Actions and GitOps(ArgoCD) for frontend, backend, ai project.',
+    technologies: ['GitHub Actions', 'GitlabCI','Docker', 'GitOps', 'ArgoCD'],
+    image: '/images/cicd-pipeline.svg'
   },
   {
     id: '3',
     title: 'Infrastructure Monitoring Dashboard',
-    description: 'Built comprehensive monitoring solution using Prometheus, Grafana, and ELK stack. Created custom dashboards for real-time infrastructure observability and alerting.',
-    technologies: ['Prometheus', 'Grafana', 'Elasticsearch', 'Kibana', 'Logstash', 'AlertManager'],
-    githubUrl: 'https://github.com/johndoe/monitoring-dashboard',
-    liveUrl: 'https://monitoring-demo.example.com'
+    description: 'Built monitoring micro service in GKE by using Prometheus, Grafana. Created custom dashboards for real-time infrastructure observability and alerting.',
+    technologies: ['Prometheus', 'Grafana', 'AlertManager'],
+    image: '/images/monitoring-dashboard.svg'
   },
   {
     id: '4',
-    title: 'Infrastructure as Code Framework',
-    description: 'Developed reusable Terraform modules and Ansible playbooks for standardized infrastructure provisioning across multiple environments and cloud providers.',
-    technologies: ['Terraform', 'Ansible', 'AWS', 'Azure', 'Python', 'Bash'],
-    githubUrl: 'https://github.com/johndoe/iac-framework'
+    title: 'Config DNS and network',
+    description: 'Set up a domain name, configure custom security rules, and use Zero Trust to create internal access.',
+    technologies: ['Cloudfalre', 'Zero trust', 'CDN'],
+    image: '/images/dns-network.svg'
   }
 ];
 

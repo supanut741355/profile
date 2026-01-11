@@ -1,10 +1,10 @@
 import { ExternalLink, Github } from 'lucide-react';
+import Image from 'next/image';
 import { projects } from '@/app/lib/data';
 import SectionContainer from '@/app/components/ui/SectionContainer';
 import GradientText from '@/app/components/ui/GradientText';
 import AnimatedSection from '@/app/components/animation/AnimatedSection';
 import Card from '@/app/components/ui/Card';
-import SkillBadge from '@/app/components/ui/SkillBadge';
 
 export default function ProjectsSection() {
   return (
@@ -23,11 +23,22 @@ export default function ProjectsSection() {
           {projects.map((project, index) => (
             <AnimatedSection key={project.id} animation="fade-up" delay={index * 100}>
               <Card className="h-full flex flex-col">
-                {/* Project Image Placeholder */}
-                <div className="w-full h-48 bg-gradient-to-br from-blue-500 to-purple-500 rounded-lg mb-4 flex items-center justify-center">
-                  <span className="text-white text-4xl font-bold opacity-50">
-                    {project.title.substring(0, 2)}
-                  </span>
+                {/* Project Image */}
+                <div className="w-full h-48 rounded-lg mb-4 overflow-hidden relative">
+                  {project.image ? (
+                    <Image
+                      src={project.image}
+                      alt={project.title}
+                      fill
+                      className="object-cover"
+                    />
+                  ) : (
+                    <div className="w-full h-full bg-gradient-to-br from-blue-500 to-purple-500 flex items-center justify-center">
+                      <span className="text-white text-4xl font-bold opacity-50">
+                        {project.title.substring(0, 2)}
+                      </span>
+                    </div>
+                  )}
                 </div>
 
                 {/* Project Title */}
