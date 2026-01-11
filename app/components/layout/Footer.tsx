@@ -1,6 +1,6 @@
 'use client';
 
-import { Github, Linkedin, Twitter, ArrowUp } from 'lucide-react';
+import { Github, Linkedin, BookOpen, ArrowUp } from 'lucide-react';
 import { socialLinks, siteConfig } from '@/app/lib/constants';
 import GradientText from '@/app/components/ui/GradientText';
 
@@ -12,7 +12,7 @@ export default function Footer() {
   const iconMap = {
     Github: Github,
     Linkedin: Linkedin,
-    Twitter: Twitter
+    Medium: BookOpen
   };
 
   return (

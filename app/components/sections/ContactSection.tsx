@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Mail, Github, Linkedin, Twitter, Check } from 'lucide-react';
+import { Mail, Github, Linkedin, BookOpen, Check } from 'lucide-react';
 import { siteConfig, socialLinks } from '@/app/lib/constants';
 import SectionContainer from '@/app/components/ui/SectionContainer';
 import GradientText from '@/app/components/ui/GradientText';
@@ -23,7 +23,7 @@ export default function ContactSection() {
   const iconMap = {
     Github: Github,
     Linkedin: Linkedin,
-    Twitter: Twitter
+    Medium: BookOpen
   };
 
   return (

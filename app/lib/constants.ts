@@ -21,18 +21,18 @@ export const navItems: NavItem[] = [
 export const socialLinks: SocialLink[] = [
   {
     platform: 'GitHub',
-    url: 'https://github.com/johndoe',
+    url: 'https://github.com/supanut741355',
     icon: 'Github'
   },
   {
     platform: 'LinkedIn',
-    url: 'https://linkedin.com/in/johndoe',
+    url: 'https://www.linkedin.com/in/supanut-laddayam-a9b29a1b0/',
     icon: 'Linkedin'
   },
   {
-    platform: 'Twitter',
-    url: 'https://twitter.com/johndoe',
-    icon: 'Twitter'
+    platform: 'Medium',
+    url: 'https://medium.com/@astronut1911',
+    icon: 'Medium'
   }
 ];
 
