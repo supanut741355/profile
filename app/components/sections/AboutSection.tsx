@@ -4,6 +4,7 @@ import SectionContainer from '@/app/components/ui/SectionContainer';
 import GradientText from '@/app/components/ui/GradientText';
 import AnimatedSection from '@/app/components/animation/AnimatedSection';
 import Card from '@/app/components/ui/Card';
+import Image from 'next/image';
 
 export default function AboutSection() {
   return (
@@ -24,14 +25,19 @@ export default function AboutSection() {
             <div className="flex justify-center">
               <div className="relative">
                 <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-br from-blue-600 to-purple-600 p-1">
-                  <div className="w-full h-full rounded-full bg-zinc-200 dark:bg-zinc-800 flex items-center justify-center">
-                    <User className="w-32 h-32 text-zinc-400 dark:text-zinc-600" />
+                  <div className="relative w-full h-full rounded-full bg-zinc-200 dark:bg-zinc-800 overflow-hidden">
+                    <Image
+                      src="/assets/hero.jpeg"
+                      alt="yoyo"
+                      fill
+                      className="object-cover rounded-full"
+                      priority
+                    />
                   </div>
                 </div>
               </div>
             </div>
           </AnimatedSection>
-
           {/* About Text */}
           <AnimatedSection animation="slide-left" delay={200}>
             <div className="space-y-4">

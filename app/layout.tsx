@@ -15,12 +15,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "John Doe | Senior DevOps Engineer",
-  description: "DevOps engineer specializing in cloud infrastructure, CI/CD pipelines, and automation. Experienced with AWS, Azure, Kubernetes, Terraform, and modern DevOps tools.",
-  keywords: ["DevOps", "Cloud", "AWS", "Azure", "Kubernetes", "Terraform", "CI/CD"],
-  authors: [{ name: "John Doe" }],
+  title: "Supanut Laddayam | DevOps Engineer / platform engineer", 
+  description: "DevOps engineer specializing in cloud infrastructure, CI/CD pipelines, and automation. Experienced with AWS, Google cloud, Kubernetes, Terraform, and modern DevOps tools.",
+  keywords: ["DevOps", "Cloud", "AWS", "Google ", "Kubernetes", "Terraform", "CI/CD"],
+  authors: [{ name: "Supanut Laddayam" }],
   openGraph: {
-    title: "John Doe | Senior DevOps Engineer",
+    title: "Supanut Laddayam | DevOps Engineer",
     description: "DevOps engineer specializing in cloud infrastructure, CI/CD pipelines, and automation.",
     type: "website",
   },

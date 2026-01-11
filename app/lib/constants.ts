@@ -1,11 +1,11 @@
 import { SiteConfig, NavItem, SocialLink } from '@/app/types';
 
 export const siteConfig: SiteConfig = {
-  name: 'John Doe',
-  title: 'Senior DevOps Engineer',
+  name: 'Supanut Laddayam',
+  title: 'DevOps Engineer / Platform engineer',
   tagline: 'Automating infrastructure, optimizing pipelines, and building resilient cloud-native systems.',
-  email: 'john.doe@example.com',
-  about: `DevOps engineer with 5+ years of experience designing and implementing CI/CD pipelines, managing cloud infrastructure, and championing DevOps culture. Passionate about automation, infrastructure as code, and continuous improvement.`,
+  email: 'supanut.wizard@gmail.com',
+  about: `DevOps engineer with 2+ years of experience designing and implementing CI/CD pipelines, managing cloud infrastructure, and championing DevOps culture. Passionate about automation, infrastructure as code, and continuous improvement.`,
   philosophy: 'Building reliable systems through automation, monitoring, and continuous feedback loops.'
 };
 
