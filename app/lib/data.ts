@@ -76,67 +76,54 @@ export const experiences: Experience[] = [
 export const certifications: Certification[] = [
   {
     id: '1',
-    name: 'AWS Certified Solutions Architect - Professional',
+    name: 'AWS Certified Cloud Practitioner',
     issuer: 'Amazon Web Services',
     date: '2023',
-    credentialUrl: 'https://aws.amazon.com/certification/'
+    credentialUrl: 'https://www.credly.com/earner/earned/badge/17dab03f-bbfd-4621-b5eb-6714ba4acd9d'
   },
   {
     id: '2',
-    name: 'Certified Kubernetes Administrator (CKA)',
-    issuer: 'Cloud Native Computing Foundation',
-    date: '2022',
-    credentialUrl: 'https://www.cncf.io/certification/cka/'
+    name: 'Cloud Digital Leader Certification',
+    issuer: 'Google Cloud',
+    date: '2024',
+    credentialUrl: 'https://www.credly.com/earner/earned/badge/9509b54c-43ff-4333-825a-508dbd13fc17'
   },
   {
     id: '3',
-    name: 'HashiCorp Certified: Terraform Associate',
-    issuer: 'HashiCorp',
-    date: '2022',
-    credentialUrl: 'https://www.hashicorp.com/certification/terraform-associate'
+    name: 'MongoDB Associate Database Administrator',
+    issuer: 'MongoDB',
+    date: '2024',
+    credentialUrl: 'https://www.credly.com/earner/earned/badge/7e70cbba-78c2-4395-9e6c-2c7e8b36282a'
   },
   {
     id: '4',
-    name: 'Azure DevOps Engineer Expert',
-    issuer: 'Microsoft',
-    date: '2021',
-    credentialUrl: 'https://docs.microsoft.com/en-us/learn/certifications/devops-engineer/'
+    name: 'Prometheus Certified Associate',
+    issuer: 'Cloud Native Computing Foundation',
+    date: '2025',
+    credentialUrl: 'https://www.credly.com/earner/earned/badge/e6a5326e-0bda-4bdc-b803-8188ec0ae4c2'
   },
   {
     id: '5',
-    name: 'Google Cloud Professional DevOps Engineer',
-    issuer: 'Google Cloud',
-    date: '2023',
-    credentialUrl: 'https://cloud.google.com/certification/cloud-devops-engineer'
+    name: 'Linux Foundation Certified Systems Administrator',
+    issuer: 'Cloud Native Computing Foundation',
+    date: '2025',
+    credentialUrl: 'https://www.credly.com/earner/earned/badge/c73eb29a-7710-4df8-97af-71ce040048b1'
   },
-  {
-    id: '6',
-    name: 'Certified Jenkins Engineer',
-    issuer: 'CloudBees',
-    date: '2020',
-    credentialUrl: 'https://www.cloudbees.com/jenkins/certification'
-  }
 ];
 
 export const skills: Skill[] = [
   // Cloud
   { name: 'AWS', category: 'Cloud', icon: 'Cloud' },
-  { name: 'Azure', category: 'Cloud', icon: 'Cloud' },
   { name: 'Google Cloud', category: 'Cloud', icon: 'Cloud' },
   { name: 'DigitalOcean', category: 'Cloud', icon: 'Cloud' },
 
   // CI/CD
-  { name: 'Jenkins', category: 'CI/CD', icon: 'Workflow' },
   { name: 'GitLab CI', category: 'CI/CD', icon: 'GitBranch' },
   { name: 'GitHub Actions', category: 'CI/CD', icon: 'Github' },
-  { name: 'CircleCI', category: 'CI/CD', icon: 'CircleDot' },
   { name: 'ArgoCD', category: 'CI/CD', icon: 'GitMerge' },
 
   // IaC
   { name: 'Terraform', category: 'IaC', icon: 'FileCode' },
-  { name: 'Ansible', category: 'IaC', icon: 'Settings' },
-  { name: 'CloudFormation', category: 'IaC', icon: 'FileJson' },
-  { name: 'Pulumi', category: 'IaC', icon: 'Code' },
 
   // Containers
   { name: 'Docker', category: 'Containers', icon: 'Container' },
@@ -147,9 +134,6 @@ export const skills: Skill[] = [
   // Monitoring
   { name: 'Prometheus', category: 'Monitoring', icon: 'Activity' },
   { name: 'Grafana', category: 'Monitoring', icon: 'BarChart' },
-  { name: 'ELK Stack', category: 'Monitoring', icon: 'Search' },
-  { name: 'Datadog', category: 'Monitoring', icon: 'Eye' },
-  { name: 'New Relic', category: 'Monitoring', icon: 'TrendingUp' },
 
   // Scripting
   { name: 'Bash', category: 'Scripting', icon: 'Terminal' },
