@@ -37,40 +37,59 @@ export const projects: Project[] = [
 export const experiences: Experience[] = [
   {
     id: '1',
-    company: 'TechCorp',
-    role: 'Senior DevOps Engineer',
-    duration: '2021 - Present',
+    company: 'iOS developer',
+    role: 'Junior ios developer ',
+    duration: '2020',
     achievements: [
-      'Led migration of monolithic applications to microservices architecture on Kubernetes, improving scalability and reducing deployment time by 70%',
-      'Implemented comprehensive monitoring and alerting system using Prometheus and Grafana, reducing MTTR by 50%',
-      'Designed and deployed multi-region disaster recovery solution with RTO < 15 minutes',
-      'Mentored team of 5 junior DevOps engineers and established best practices for infrastructure as code'
+      'Build mobile application with VIPER design',
+      'Build internal organization mobile application'
     ]
   },
   {
     id: '2',
-    company: 'StartupXYZ',
-    role: 'DevOps Engineer',
-    duration: '2019 - 2021',
+    company: 'Open Source Technology ltd.',
+    role: 'Backend developer',
+    duration: '2020-2021',
     achievements: [
-      'Built CI/CD pipelines from scratch using GitLab CI, reducing release cycles from weekly to daily',
-      'Automated infrastructure provisioning using Terraform, managing 100+ AWS resources',
-      'Implemented container orchestration with Docker Swarm, later migrated to Kubernetes',
-      'Reduced cloud costs by 35% through resource optimization and auto-scaling policies'
+      'Build backend application to serve frontend team',
+      'Build leave management application',
+      'Design micro service architecture'
     ]
   },
   {
     id: '3',
-    company: 'CloudSolutions Inc',
-    role: 'Junior DevOps Engineer',
-    duration: '2018 - 2019',
+    company: 'Finstable co, ltd.',
+    role: 'Fullstack developer & Blockchain developer',
+    duration: '2021 - 2023',
     achievements: [
-      'Maintained and monitored production infrastructure serving 1M+ users',
-      'Automated deployment processes using Jenkins and Ansible',
-      'Implemented backup and disaster recovery procedures',
-      'Collaborated with development teams to optimize application performance'
+      'Build web application',
+      'Build web3 application',
+      'Build github action CI/CD',
+      'Deploy application to AWS EC2, ECS',
+      'Config VPC network',
+      'Manage Database'
     ]
-  }
+  },
+  {
+    id: '4',
+    company: 'Myorder Marketing Co., Ltd.',
+    role: 'DevOps engineer, Platform engineer',
+    duration: '2023 - present',
+    achievements: [
+      'Manage multiple Google cloud project and resource.',
+      'Manage multi cluster.',
+      'Manage GKE',
+      'Manage mongoDB',
+      'Create helm-template',
+      'Config Linux server',
+      'Config argoCD',
+      'Build CI/CD gitlab ',
+      'Build CI/CD github action ',
+      'Config observability',
+      'Config alert',
+      'Config DNS and rule at Cloudflare'
+    ]
+  },
 ];
 
 export const certifications: Certification[] = [
@@ -121,6 +140,7 @@ export const skills: Skill[] = [
   { name: 'AWS', category: 'Cloud', icon: 'Cloud' },
   { name: 'Google Cloud', category: 'Cloud', icon: 'Cloud' },
   { name: 'DigitalOcean', category: 'Cloud', icon: 'Cloud' },
+  { name: 'Cloudflare', category: 'Cloud', icon: 'Cloud' },
 
   // CI/CD
   { name: 'GitLab CI', category: 'CI/CD', icon: 'GitBranch' },
